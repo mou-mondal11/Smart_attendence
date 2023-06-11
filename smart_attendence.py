@@ -10,6 +10,19 @@ import csv
 import openpyxl
 from openpyxl import Workbook
 
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError
+ 
+url = "https://www.gamefaqs.com"
+ 
+try:
+    request_site = Request(url)
+    webpage = urlopen(request_site).read()
+    print(webpage[:500])
+except HTTPError as e:
+    print("Error occured!")
+    print(e)
+
 # Define the Streamlit app
 def main():
     st.title("Face Recognition Attendance System")

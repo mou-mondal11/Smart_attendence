@@ -92,7 +92,6 @@ pyrsistent
 python-dateutil
 pytz
 pytz-deprecation-shim
-pyzmq
 requests1
 requests-oauthlib
 rich

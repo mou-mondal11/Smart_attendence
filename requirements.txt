@@ -92,8 +92,6 @@ pyrsistent
 python-dateutil
 pytz
 pytz-deprecation-shim
-pywin
-pywinpty
 pyzmq
 requests1
 requests-oauthlib

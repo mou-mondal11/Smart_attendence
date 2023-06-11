@@ -92,7 +92,7 @@ pyrsistent
 python-dateutil
 pytz
 pytz-deprecation-shim
-pywin32
+pywin
 pywinpty
 pyzmq
 requests1

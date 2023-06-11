@@ -91,7 +91,6 @@ pyparsing
 pyrsistent
 python-dateutil
 pytz
-pytz-deprecation-shim
 requests1
 requests-oauthlib
 rich
